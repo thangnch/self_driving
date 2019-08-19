@@ -5,7 +5,5 @@ Article link: http://ainoodle.tech/2019/08/19/computer-vision-thu-lap-trinh-xe-o
 
 #MìAI
 Fanpage: http://facebook.com/miaiblog
-
 Group trao đổi, chia sẻ: https://www.facebook.com/groups/miaigroup
-
 Website: http://ainoodle.tech
