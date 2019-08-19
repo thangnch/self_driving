@@ -11,7 +11,7 @@ from keras.regularizers import l2
 from utils import INPUT_SHAPE, batch_generator
 
 # Thư mục để dữ liệu
-data_dir = 'traindata'
+data_dir = '../traindata'
 # Đọc file driving_log.csv với các cột tương ứng
 data_df = pd.read_csv(os.path.join(os.getcwd(), data_dir, 'driving_log.csv'),
                       names=['center', 'left', 'right', 'steering', 'throttle', 'reverse', 'speed'])
@@ -60,7 +60,7 @@ save_best_only = True
 learning_rate = 1e-4
 
 # Checkpoint này để nói cho model lưu lại model nếu validation loss thấp nhất
-checkpoint = ModelCheckpoint('traindata/model-{epoch:03d}.h5',
+checkpoint = ModelCheckpoint('../traindata/model-{epoch:03d}.h5',
                                  monitor='val_loss',
                                  verbose=0,
                                  save_best_only=save_best_only,
